@@ -1,0 +1,274 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	color: #fff;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgba(77,190,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(77,190,254,1) 0%, rgba(4,219,239,1) 0%, rgba(77,190,254,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,190,254,1)), color-stop(0%, rgba(4,219,239,1)), color-stop(100%, rgba(77,190,254,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(77,190,254,1) 0%, rgba(4,219,239,1) 0%, rgba(77,190,254,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(77,190,254,1) 0%, rgba(4,219,239,1) 0%, rgba(77,190,254,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(77,190,254,1) 0%, rgba(4,219,239,1) 0%, rgba(77,190,254,1) 100%);
+	background: linear-gradient(135deg, rgba(77,190,254,1) 0%, rgba(4,219,239,1) 0%, rgba(77,190,254,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbefe', endColorstr='#4dbefe', GradientType=1 );
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
+
+.wrapper {
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+}
+
+.title {
+	font-size: 37px;
+	width: 560px;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.header-text {
+	width: 400px;
+	padding-top: 35px;
+	padding-bottom: 40px;
+}
+
+.offer {
+
+	width: 560px;
+}
+
+.btn {
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #ffd429;
+	color: #000;
+	font-weight: bold;
+	display: block;
+	width: 222px;
+	text-align: center;
+	text-decoration: none;
+	padding: 22px 0;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #d9860e;
+}
+
+
+section{
+	padding-top: 105px;
+	padding-bottom: 115px;
+	color: #000;
+}
+
+.travels-title {
+	color: #000;
+}
+
+.title-2 {
+	color: #000;
+	font-size: 30px;
+	text-align: center;
+}
+
+.travels-cards {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+
+.travels-card {
+	width: 300px;
+	height: 170px;
+	
+
+}
+
+.travels-title {
+	font-size: 18px;
+	text-align: center;
+}
+
+.travels-text {
+	margin-top: 7px;
+	text-align: center;
+}
+
+.photo-time {
+	height: 90px;
+	background: url('../img/icons8-time-machine-96.jpg') no-repeat center top;
+
+}
+
+.photo-beach {
+	height: 90px;
+	background: url('../img/icons8-beach-96.jpg') no-repeat center top;
+
+}
+
+.photo-spacecar {
+	height: 90px;
+	background: url('../img/icons8-launch-96.jpg') no-repeat center top;
+
+}
+
+.forms {
+	background-color: #ecf3f8;
+}
+
+.forms-items {
+	margin-top: 60px;
+}
+
+.input {
+	width: 345px;
+	height: 48px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	font-size: 15px;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 16px;
+
+}
+
+.btn2 {
+	width: 345px;
+	margin-right: auto;
+	margin-left: auto;
+	
+	
+}
+
+.footer {
+	background-color: #164d7a;
+	padding: 60px 0;
+}
+.foot {
+	text-align: center;
+	font-size: 13px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+	.container {
+	width: 960px;
+	}
+	
+	.offer{
+		padding-top: 100px;
+		width: 350px;
+	}
+	.title {
+		width: 350px;
+	}
+	.header-text{
+		width: 350px;
+	}
+	.travelphoto {
+		display: block;
+		width: 643px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+	width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		width: 100%;
+
+	}
+	.title {
+		width: 80%;
+	}
+	
+	
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+	width: 540px;
+	}
+	.travelphoto {
+		width: 540px;
+	}
+	.offer {
+		width: 90%;
+	}
+	.logo{
+		padding-left: 28px;
+	}
+	.travels-cards{
+		flex-direction: column;
+	}
+
+	.travels-card{
+		width: auto;
+		padding-bottom: 15px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+	width: 100%;
+	}
+	.offer {
+		width: 100%;
+	}
+	.title {
+		width: 320px;
+	}
+	.header-text{
+		width: 320px;
+	}
+	.travelphoto {
+		width: 320px;
+	}
+	.btn {
+		margin-left: 0;
+	    margin-top: 15px;
+	    width: 100%;
+	}
+	.input {
+		margin-left: 0;
+	    margin-top: 15px;
+	    width: 100%;
+	}
+
+}
+
